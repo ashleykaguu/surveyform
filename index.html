@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"></>
+    <h1 id="title">SURVEY FORM</h1>
+  </head>
+  <body>
+    <p id="description">Fill out below with the required information.</p>
+    <form id="survey-form">
+      <link rel="sylesheet" href="styles.css"></>
+      <fieldset>
+<label for="name" id="name-label">Enter your name<input id="name" type="text" required placeholder="username"></> 
+</label> 
+<label for="email" id="email-label">Enter your email<input id="email" type="email" required placeholder="username.com"></>
+  </label>
+  <label for="number" id="number-label">Enter your age<input id="number" type="number" min="18" max="100" placeholder="number"></></label>
+  </fieldset>
+  <label>How did you learn about us:</label>
+  <select id="dropdown">
+    <option "">(select one)</option>
+    <option value="1">youtube</option>
+    <option value="2">google</option>
+    </select>
+    <fieldset>
+      <label>What is your gender:
+      <input type="checkbox" name="gender" value="submit" >Male</>
+      <input type="checkbox" name="gender" value="submit">Female</>
+      </label>
+      </fieldset>
+    <fieldset >
+      <label>What is your account:
+      <input type="radio" name="account" value="submit">Personal account</>
+      <input type="radio" name="account" value="submit">Business account</>
+      </label>
+      </fieldset> 
+      <label for="bio">Provide a bio:<textarea rows="4" column="8" placeholder="I love the beach..."></textarea>
+      </label>
+      <input id="submit" type="submit" value="submit"></>
+      </form>
+  </body>
+  <html>

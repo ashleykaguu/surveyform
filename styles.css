@@ -1,0 +1,48 @@
+body{
+    font-family:verdana;
+    background-color:grey;
+    text-align:center;
+    margin-left:50px;
+    width:100px;
+    height:100vh;
+  }
+  form{
+    width:80vw;
+    color:white;
+    margin:50px auto;
+    padding-top:9px;
+    box-shadow:2px 10px 10px;
+  }
+  input[type="radio"] {
+    border-color:black;
+    width:50px;
+    font-size:29px;
+    
+  }
+  p {
+   padding-top:10px;
+   width:70vh;
+   text-align:center;
+   margin:-20px;
+  }
+  label {
+    display:block;
+    margin:20px;
+  }
+  textarea {
+    text-align:center;display:block;
+  
+  }
+  input[type="radio"] {
+    display:inline-block;
+     width:10vw;
+  }
+   textarea {
+    display:block;
+    text-align:0 auto;
+  }
+  
+  h1 {
+    text-align:center;
+    width:50vh;
+  }
